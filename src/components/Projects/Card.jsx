@@ -69,7 +69,7 @@
 
 // export default Card
 
-import React from "react";
+import PropTypes from "prop-types";
 import { CiShare1 } from "react-icons/ci";
 import { IoLogoGithub } from "react-icons/io";
 
@@ -98,5 +98,15 @@ const Card = ({name, desc, github, image, demo, tech, flag }) => {
     </div>
   )
 }
+
+Card.propTypes = {
+  name: PropTypes.string.isRequired,   
+  desc: PropTypes.string.isRequired,    
+  github: PropTypes.string.isRequired,  
+  image: PropTypes.string.isRequired,   
+  demo: PropTypes.string,               
+  tech: PropTypes.arrayOf(PropTypes.string).isRequired, 
+  flag: PropTypes.bool.isRequired,      
+};
 
 export default Card

@@ -1,5 +1,5 @@
-import React from "react";
 import { CiShare1 } from "react-icons/ci";
+import PropTypes from "prop-types";
 
 const Card = ({ logo, name, star, count, desc, linkto }) => {
   return (
@@ -22,6 +22,15 @@ const Card = ({ logo, name, star, count, desc, linkto }) => {
       </div>
     </div>
   );
+};
+
+Card.propTypes = {
+  logo: PropTypes.string.isRequired,  
+  name: PropTypes.string.isRequired,  
+  star: PropTypes.node,               
+  count: PropTypes.number,            
+  desc: PropTypes.string.isRequired,  
+  linkto: PropTypes.string.isRequired 
 };
 
 export default Card;

@@ -78,7 +78,6 @@
 
 // export default Projects;
 
-import React from "react";
 import styles from "./Projects.module.css";
 import Card from "./Card";
 import { projectsFile1 } from "./ProjectsFile";

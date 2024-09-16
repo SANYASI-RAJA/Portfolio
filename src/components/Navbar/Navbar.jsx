@@ -1,9 +1,8 @@
-import React, { useState, useEffect } from "react";
+import  { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import styles from "./Navbar.module.css";
 import menuIcon from "../../assets/nav/menuIcon.png";
 import closeIcon from "../../assets/nav/closeIcon.png";
-import logo from "../../assets/nav/logo.png";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -30,7 +29,7 @@ const Navbar = () => {
     <nav className={styles.navbar}>
       <Link
         to="/"
-        className={`${styles.title} bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% text-transparent bg-clip-text md:text-[40px]`}
+        className={`${styles.title} bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% text-transparent bg-clip-text md:text-[60px]`}
       >
         SANYASI RAJA
       </Link>

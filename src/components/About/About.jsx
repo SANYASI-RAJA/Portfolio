@@ -1,8 +1,6 @@
-import React from "react";
 import styles from "./About.module.css";
 import Sanyasi from "../../assets/about/Sanyasi.jpeg";
-import { FaArrowRight } from "react-icons/fa";
-import TextColorChange from "../TextColorChange";
+
 
 const About = () => {
   return (
@@ -28,13 +26,13 @@ const About = () => {
           </div>
           <div className="about">
             <p className="text-[15px] text-justify mt-3 md:text-[23px] lg:text-[20px]">
-              I'm a full-stack developer specializing in MERN (MongoDB,
-              Express.js, React.js, Node.js) development. I've built numerous
+              I&apos;m a full-stack developer specializing in MERN (MongoDB,
+              Express.js, React.js, Node.js) development. I&apos;ve built numerous
               responsive websites focused on delivering great user experiences.
               Proficient in HTML, CSS, and JavaScript, I stay updated with the
               latest web development trends. Additionally, I actively
               participate in online coding platforms like codeforces, LeetCode and CodeChef,
-              where I've solved various challenges and earned recognition,
+              where I&apos;ve solved various challenges and earned recognition,
               including stars and commendations. This has strengthened my
               problem-solving skills and solidified my expertise as a developer.
             </p>

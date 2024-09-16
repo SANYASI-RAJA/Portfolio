@@ -21,7 +21,7 @@
 
 // export default MotionCard
 
-import React from "react";
+import PropTypes from "prop-types";
 import { motion } from "framer-motion";
 
 const MotionCard = ({ image, size = 1 }) => { // Setting default value for size
@@ -35,10 +35,16 @@ const MotionCard = ({ image, size = 1 }) => { // Setting default value for size
         <img 
           src={image} 
           alt="Not Available" 
+          style={{ transform: `scale(${size})` }}
         />
       </motion.div>
     </div>
   );
+};
+
+MotionCard.propTypes = {
+  image: PropTypes.string.isRequired, 
+  size: PropTypes.number,            
 };
 
 export default MotionCard;

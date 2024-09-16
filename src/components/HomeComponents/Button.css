@@ -39,7 +39,7 @@
   .btn-pink::before {
     content: "";
     position: absolute;
-    background-color:rgb(237, 225, 225);
+    background-color:rgb(15, 15, 15);
     top: 0px;
     left: 0;
     right: 0;
@@ -54,7 +54,7 @@
   }
   .btn-pink:hover {
     border: solid 3px var(--bgOrange);
-    color:black;
+    color:rgb(253, 249, 249);
     border-color: black;
     transition: all 3s;
   }

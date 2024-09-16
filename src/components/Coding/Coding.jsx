@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./Coding.module.css";
 import hackerrank from "../../assets/coding/hackerrank.png";
 import leetcode from "../../assets/coding/leetcode.png";
@@ -23,19 +22,23 @@ const Coding = () => {
         <Card 
             logo={codeforces} 
             name={"Codeforces"} 
+            star
+            count
             desc={`1200+ Questions Solved and max rating 1631(Expert)`} 
             linkto={"https://codeforces.com/profile/SANYASI_RAJA"} />
         <Card
           logo={leetcode}
           name={"Leetcode"}
+          star
+          count
           desc={`1200+ Questions Solved, Unlock 10 Badges and maximum rating is 2197(Guardian)`}
           linkto={"https://leetcode.com/u/Sanyasi/"}
         />
         <Card
           logo={codechef}
           name={"CodeChef"}
-          count={5}
           star={<FaStar />}
+          count={5}
           desc={`on Codechef and Achieved Global Rank in contest is 101`}
           linkto={"https://www.codechef.com/users/sanyasiraja001"}
         />
@@ -43,6 +46,8 @@ const Coding = () => {
         <Card
           logo={gfg}
           name={"GeeksforGeeks"}
+          star
+          count
           desc={`350+ Questions solved and My Institute Rank is 376`}
           linkto={"https://www.geeksforgeeks.org/user/sanyasiroweh/"}
         />
@@ -50,8 +55,8 @@ const Coding = () => {
         <Card
           logo={hackerrank}
           name={"Hackerrank"}
-          count={5}
           star={<FaStar />}
+          count={5}    
           desc={`in Problem Solving and Certificates of c++ and SQL`}
           linkto={"https://www.hackerrank.com/profile/sanyasiraja001"}
         />

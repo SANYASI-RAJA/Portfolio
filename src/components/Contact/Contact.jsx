@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./Contact.module.css";
 import { IoLogoGithub } from "react-icons/io";
 import { FaWhatsapp } from "react-icons/fa";
@@ -24,9 +23,9 @@ const Contact = () => {
         <div className="flex flex-col md:flex-row gap-6 md:gap-24 items-start">
           <div className="text-[24px] text-gray-300 text-justify md:w-[50%] lg:w-[40%]">
             If you have any questions, please feel free to drop me a line. If
-            you don't get an answer immediately, I might just be travelling
-            through the middle of nowhere. I'll get back to you as soon as I
-            can. That's a promise!
+            you don&apos;t get an answer immediately, I might just be travelling
+            through the middle of nowhere. I&apos;ll get back to you as soon as I
+            can. That&apos;s a promise!
           </div>
 
           <div>

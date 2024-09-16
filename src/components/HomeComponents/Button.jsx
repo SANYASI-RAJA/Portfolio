@@ -1,8 +1,7 @@
-import React from "react";
-import { Link } from "react-router-dom";
 import "./Button.css";
+import PropTypes from "prop-types";
 
-const Button = ({ children,active, resume }) => {
+const Button = ({ children, resume }) => {
   return (
     <div>
       <a href={resume ? `${resume}` : "mailto:sanyasiraja001@gmail.com"} target="_blank" download><div className="btn-pink" >{children}</div></a>
@@ -24,6 +23,11 @@ const Button = ({ children,active, resume }) => {
       </a> */}
     </div>
   );
+};
+
+Button.propTypes = {
+  children: PropTypes.node.isRequired, 
+  resume: PropTypes.string,           
 };
 
 export default Button;
