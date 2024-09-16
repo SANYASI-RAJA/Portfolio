@@ -19,7 +19,7 @@ const Home = () => {
             <TextAnimation />
           </p>
           <p className="mt-3 text-gray-400 text-base sm:text-lg md:text-[24px] mb-3 md:mb-4 text-justify"> {/* Adding Tailwind CSS classes */}
-          I&apos;m a Mechanical Engineering from NIT Jamshedpur with a primary focus on competitive programming, Web Development. I possess a diverse skill set and have acquired expertise in various programming languages, frameworks, and tools relevant to this domain.
+          I&apos;m a Mechanical Engineering from NIT Jamshedpur with a primary focus on competitive programming and Web Development. I possess a diverse skill set and have acquired expertise in various programming languages, frameworks, and tools relevant to this domain.
           </p>
           <p className="text-gray-400 text-base sm:text-lg mb-5 md:text-[24px]"> {/* Adding Tailwind CSS classes */}
             I&apos;m also interested in learning new skills and implement in real life.
