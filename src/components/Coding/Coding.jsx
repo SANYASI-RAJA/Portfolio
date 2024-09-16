@@ -31,7 +31,7 @@ const Coding = () => {
           name={"Leetcode"}
           star
           count
-          desc={`1200+ Questions Solved, Unlock 10 Badges and maximum rating is 2197(Guardian)`}
+          desc={`1200+ Questions Solved, Unlocked 10 Badges and maximum rating is 2197(Guardian)`}
           linkto={"https://leetcode.com/u/Sanyasi/"}
         />
         <Card
@@ -39,7 +39,7 @@ const Coding = () => {
           name={"CodeChef"}
           star={<FaStar />}
           count={5}
-          desc={`on Codechef and Achieved Global Rank in contest is 101`}
+          desc={`on Codechef and Achieved Global Rank 101 in contest`}
           linkto={"https://www.codechef.com/users/sanyasiraja001"}
         />
         
