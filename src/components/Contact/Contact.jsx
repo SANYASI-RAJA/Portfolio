@@ -42,7 +42,7 @@ const Contact = () => {
               <a href="https://github.com/SANYASI-RAJA" target="_blank">
                 <IoLogoGithub className="hover:text-[#03fcc6]" />
               </a>
-              <a href="wa.link/lml7yi" target="_blank">
+              <a href="https://wa.link/lml7yi" target="_blank">
                 <FaWhatsapp className="hover:text-[#03fcc6]" />
               </a>
               <a href="https://t.me/+919608207373" target="_blank">
