@@ -1,0 +1,42 @@
+@import "../../vars.css";
+
+.About{
+    /* height: 100vh; */
+    background-color: var(--color-bg);
+    /* border: 2px solid red; */
+    margin: 0 30px;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.user-image{
+    padding:2.5rem;
+    /* filter:grayscale(1); */
+    transition:all 1s;
+    animation: scaleImage 5s linear infinite;
+  }
+
+  .user-image img{
+    z-index:-9;
+  }
+
+  @keyframes scaleImage {
+
+    0%{
+        /* filter:grayscale(0); */
+        transform:scale(1);
+        
+    }
+
+    50%{
+        transform:scale(1.1);
+        /* filter:grayscale(1); */
+        box-shadow: 3px 3px 10px black;
+    }
+
+    100%{
+        transform:scale(1);
+        /* filter:grayscale(0); */
+    }
+}
