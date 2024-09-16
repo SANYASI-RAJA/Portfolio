@@ -39,6 +39,9 @@
     color: rgb(15, 232, 207);
 }
 
+.btn{
+    background-color: red;
+}
 
 @media screen and (max-width: 768px) {
     .navbar{

@@ -47,8 +47,8 @@ const Navbar = () => {
           } text-[#5cc8b4] md:font-bold`}
           id="menuOptions"
         >
-          <li>
-            <Link to="/about" className={`${styles.menuItem} text-[20px]`} onClick={handleMenu}>
+          <li >
+            <Link to="/about" className={`${styles.menuItem} text-[20px]`}  onClick={handleMenu}>
               About
             </Link>
           </li>

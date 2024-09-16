@@ -48,7 +48,7 @@ const Coding = () => {
           name={"GeeksforGeeks"}
           star
           count
-          desc={`350+ Questions solved and My Institute Rank is 376`}
+          desc={`350+ Questions solved and Institute Rank is 376`}
           linkto={"https://www.geeksforgeeks.org/user/sanyasiroweh/"}
         />
 
