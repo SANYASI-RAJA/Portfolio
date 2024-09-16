@@ -49,27 +49,32 @@ const Navbar = () => {
         >
           <li >
             <Link to="/about" className={`${styles.menuItem} text-[20px]`}  onClick={handleMenu}>
-              About
+              <span>About</span>
+              <i></i>
             </Link>
           </li>
           <li>
             <Link to="/skills" className={`${styles.menuItem} text-[20px]`} onClick={handleMenu}>
-              Skills
+            <span>Skills</span>
+            <i></i>
             </Link>
           </li>
           <li>
             <Link to="/coding" className={`${styles.menuItem} text-[20px]`} onClick={handleMenu}>
-              Coding
+              <span>Coding</span>
+              <i></i>
             </Link>
           </li>
           <li>
             <Link to="/projects" className={`${styles.menuItem} text-[20px]`} onClick={handleMenu}>
-              Projects
+              <span>Projects</span>
+              <i></i>
             </Link>
           </li>
           <li>
             <Link to="/contact" className={`${styles.menuItem} text-[20px]`} onClick={handleMenu}>
-              Contact
+              <span>Contact</span>
+              <i></i>
             </Link>
           </li>
         </ul>
