@@ -3,7 +3,7 @@ import boy1 from "../assets/hero/boy1.jpg";
 import TextHighlight from "../components/HomeComponents/TextHighlight";
 import TextAnimation from "../components/HomeComponents/TextAnimation";
 import Button from "../components/HomeComponents/Button";
-import resume from "../assets/hero/Sanyasi_raja.pdf"
+import resume from "../assets/hero/Sanyasi_Resume.pdf"
 
 const Home = () => {
   return (
