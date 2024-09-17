@@ -18,7 +18,7 @@ const Contact = () => {
       </div> */}
       <div className="flex flex-col mt-8 lg:mt-0">
         <div className={`${styles.title} text-3xl mb-5`}>
-          <h1 className="font-bold text-[#03fcc6]">Get in touch</h1>
+          <h1 className="font-bold text-pink-600 text-[#03fcc6]">Get in touch</h1>
         </div>
         <div className="flex flex-col md:flex-row gap-6 md:gap-24 items-start">
           <div className="text-[24px] text-gray-300 text-justify md:w-[50%] lg:w-[40%]">
@@ -29,7 +29,7 @@ const Contact = () => {
           </div>
 
           <div>
-            <p className="text-[24px] font-bold border-b-4 border-blue-500 pb-3">
+            <p className="text-[24px] text-emerald-300 font-bold border-b-4 border-blue-500 pb-3">
               Find Sanyasi elsewhere
             </p>
             <div className="flex mt-5 gap-10 text-[30px]">

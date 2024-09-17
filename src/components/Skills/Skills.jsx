@@ -22,10 +22,10 @@ const Skills = () => {
   return (
     <div className={`${styles.Skills} lg:px-32 lg:flex lg:flex-col justify-center lg:h-[100vh]`}>
       <div className="flex flex-row text-blue-200 mt-4 items-center gap-2">
-        <h1 className="text-[30px] font-bold md:text-[40px] lg:text-[35px]">
+        <h1 className="text-[30px] text-green-400 font-bold md:text-[40px] lg:text-[35px]">
           Skills
         </h1>
-        <div className="border-b-4 border-solid border-blue-100 p-1 w-16"></div>
+        <div className="border-b-4 border-solid border-blue-100 p-1 w-16 border-green-400"></div>
       </div>
       <div className="skills mt-4 flex flex-row gap-3 flex-wrap justify-center lg:w-[70%] m-auto">
         <MotionCard image={html} />

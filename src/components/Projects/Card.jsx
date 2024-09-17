@@ -79,8 +79,8 @@ const Card = ({name, desc, github, image, demo, tech, flag }) => {
       <div className={`card flex flex-col-reverse ${flag ? "lg:flex-row-reverse": "lg:flex-row" } justify-between gap-6 md:gap-9 mb-10`}>
         <div className="group lg:w-[50%]"><img className="transition-opacity duration-300 filter brightness-50 group-hover:brightness-100" src={image} alt="" /></div>
         <div className="flex flex-col gap-3 lg:w-[50%]">
-          <h1 className="text-2xl md:text-4xl font-bold text-blue-200">{name}</h1>
-          <p className="bg-[#172a45] md:text-2xl lg:text-xl lg:w-[100%] p-5">{desc}</p>
+          <h1 className="text-2xl md:text-4xl font-bold text-blue-500">{name}</h1>
+          <p className="bg-[#172a45] text-gray-200 md:text-2xl lg:text-xl lg:w-[100%] p-5">{desc}</p>
           <div className="flex flex-row gap-2 flex-wrap md:text-xl text-[#64ffda]">
             {
               tech.map((ele,ind)=>(

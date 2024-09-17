@@ -9,10 +9,10 @@ const Card = ({ logo, name, star, count, desc, linkto }) => {
           <img className="w-20 h-20" src={logo} alt="" />
           <a className="text-3xl" href={linkto} target="_blank" rel="noopener noreferrer"><CiShare1 /></a>
         </div>
-        <div className="name text-xl font-bold">{name}</div>
-        <div className="desc flex items-start gap-3 font-semibold flex-wrap">
+        <div className="name text-xl text-cyan-400 font-bold">{name}</div>
+        <div className="desc text-gray-200 flex items-start gap-3 font-semibold flex-wrap">
           {count && (
-            <div className="flex items-center gap-1">
+            <div className="flex text-yellow-400 items-center gap-1">
               {star && count}
               {star}
             </div>

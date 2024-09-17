@@ -13,10 +13,10 @@ const Coding = () => {
       className={`${styles.Coding} lg:px-32 lg:flex lg:flex-col justify-center `}
     >
       <div className="flex flex-row text-blue-200 mt-4 items-center gap-2">
-        <h1 className="text-[30px] font-bold md:text-[40px] lg:text-[35px]">
+        <h1 className="text-[30px] text-red-500 font-bold md:text-[40px] lg:text-[35px]">
           Coding
         </h1>
-        <div className="border-b-4 border-solid border-blue-100 p-1 w-16"></div>
+        <div className="border-b-4 border-solid border-blue-100 p-1 w-16 border-red-500"></div>
       </div>
       <div className="coding mt-8 flex flex-col gap-7 lg:grid lg:grid-cols-2">
         <Card 
