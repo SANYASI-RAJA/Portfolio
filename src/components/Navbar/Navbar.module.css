@@ -21,7 +21,7 @@
 
 .title:hover{
     font-size: 61px;
-    box-shadow: 5px 7px 0px #2d2b513f;
+    box-shadow: 5px 7px 10px #403e733f;
     transition: 0.5s;
 }
 
@@ -76,10 +76,10 @@
 }
 
 .menuItem:hover {
-    background: blue;
-    color: blue;
+    background: var(--clr);
+    color: var(--clr);
     letter-spacing: 0.15em;
-    box-shadow: 0 0 35px blue;
+    box-shadow: 0 0 35px var(--clr);
 }
 
 .menuItem:before{

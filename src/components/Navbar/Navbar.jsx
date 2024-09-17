@@ -48,31 +48,31 @@ const Navbar = () => {
           id="menuOptions"
         >
           <li >
-            <Link to="/about" className={`${styles.menuItem} text-[20px]`}  onClick={handleMenu}>
+            <Link to="/about" style={{ "--clr": "#0535fa" }} className={`${styles.menuItem} text-[20px]`}  onClick={handleMenu}>
               <span>About</span>
               <i></i>
             </Link>
           </li>
           <li>
-            <Link to="/skills" className={`${styles.menuItem} text-[20px]`} onClick={handleMenu}>
+            <Link to="/skills" style={{ "--clr": "#05f809" }} className={`${styles.menuItem} text-[20px]`} onClick={handleMenu}>
             <span>Skills</span>
             <i></i>
             </Link>
           </li>
           <li>
-            <Link to="/coding" className={`${styles.menuItem} text-[20px]`} onClick={handleMenu}>
+            <Link to="/coding" style={{ "--clr": "#ff6347" }} className={`${styles.menuItem} text-[20px]`} onClick={handleMenu}>
               <span>Coding</span>
               <i></i>
             </Link>
           </li>
           <li>
-            <Link to="/projects" className={`${styles.menuItem} text-[20px]`} onClick={handleMenu}>
+            <Link to="/projects" style={{ "--clr": "#f2f607" }} className={`${styles.menuItem} text-[20px]`} onClick={handleMenu}>
               <span>Projects</span>
               <i></i>
             </Link>
           </li>
           <li>
-            <Link to="/contact" className={`${styles.menuItem} text-[20px]`} onClick={handleMenu}>
+            <Link to="/contact" style={{ "--clr": "#ff1493" }} className={`${styles.menuItem} text-[20px]`} onClick={handleMenu}>
               <span>Contact</span>
               <i></i>
             </Link>
