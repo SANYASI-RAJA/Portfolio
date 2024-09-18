@@ -40,7 +40,7 @@ const About = () => {
         </div>
         
         <div className="user-image">
-          <img className=" w-[120px] md:w-[180px] lg:w-[270px] mt-5 rounded-md " src={Sanyasi} alt="Profile" />
+          <img className=" w-[120px] md:w-[170px] lg:w-[220px] mt-5 rounded-md " src={Sanyasi} alt="Profile" />
         </div>
       </div>
     </div>
