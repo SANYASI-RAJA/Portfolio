@@ -24,9 +24,10 @@
 import PropTypes from "prop-types";
 import { motion } from "framer-motion";
 
-const MotionCard = ({ image, size = 1 }) => { // Setting default value for size
+const MotionCard = ({ image, link ,size = 1 }) => { // Setting default value for size
   return (
     <div>
+    <a href={link} target="_blank" rel="noopener noreferrer">
       <motion.div
         className="container border-4 rounded-tl-3xl rounded-br-3xl md:border-[6px] border-[#03fcc6] w-fit p-3"
         whileHover={{ scale: 1, rotate: 90, boxShadow: "0px 0px 20px rgba(0, 0, 0, 0.2)" }}
@@ -38,13 +39,15 @@ const MotionCard = ({ image, size = 1 }) => { // Setting default value for size
           style={{ transform: `scale(${size})` }}
         />
       </motion.div>
+      </a>
     </div>
   );
 };
 
 MotionCard.propTypes = {
   image: PropTypes.string.isRequired, 
-  size: PropTypes.number,            
+  size: PropTypes.number,     
+  link: PropTypes.string.isRequired,       
 };
 
 export default MotionCard;

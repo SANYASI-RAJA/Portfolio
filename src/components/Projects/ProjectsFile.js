@@ -5,7 +5,7 @@ import Tasklog from "../../assets/projects/Tasklog.png"
 export const projectsFile1 = [
     {
         name: "NIT JSR Complaint App(CampusVoice)",
-        desc: "This is MERN based app focusing on student complaint for NIT Jamshedpur, Here student can sign and login and can admit thier complaints. email: dummy@gmail.com, password: 123456",
+        desc: "This is MERN based app focusing on student complaint for NIT Jamshedpur, Here student can sign and login and can admit their complaints. email: dummy@gmail.com, password: 123456",
         github: "https://github.com/SANYASI-RAJA/Campus_Voice",
         image: CV,
         demo: "https://campusvoice.vercel.app/",
@@ -14,7 +14,7 @@ export const projectsFile1 = [
     },
     {
         name: "Expenses Management App",
-        desc: "This is an Expense Management App. User can sign and login and then user can manage thier expenses",
+        desc: "This is an Expense Management App. User can sign and login and then user can manage their expenses",
         github: "https://github.com/SANYASI-RAJA/ExpanseFront",
         image: Expense,
         demo: "https://expanse-front.vercel.app/",

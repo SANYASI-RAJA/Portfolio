@@ -28,21 +28,21 @@ const Skills = () => {
         <div className="border-b-4 border-solid border-blue-100 p-1 w-16 border-green-400"></div>
       </div>
       <div className="skills mt-4 flex flex-row gap-3 flex-wrap justify-center lg:w-[70%] m-auto">
-        <MotionCard image={html} />
-        <MotionCard image={css} />
-        <MotionCard image={js} />
-        <MotionCard image={nodejs} />
-        <MotionCard image={mongodb} />
-        <MotionCard image={react} />
-        <MotionCard image={git} />
-        <MotionCard image={java} />
-        <MotionCard image={python} />
-        <MotionCard image={c} />
-        <MotionCard image={cplus} />
-        <MotionCard image={bootstrap} />
-        <MotionCard image={tailwind} />
-        <MotionCard image={github} />
-        <MotionCard image={mysql} />
+          <MotionCard image={html} link="https://developer.mozilla.org/en-US/docs/Web/HTML" />
+          <MotionCard image={css} link="https://developer.mozilla.org/en-US/docs/Web/CSS" />
+          <MotionCard image={js} link="https://developer.mozilla.org/en-US/docs/Web/JavaScript" />
+          <MotionCard image={nodejs} link="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Node_server_without_framework" />
+          <MotionCard image={mongodb} link="https://www.mongodb.com/docs/" />
+          <MotionCard image={react} link="https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started" />
+          <MotionCard image={git} link="https://git-scm.com/doc" />
+          <MotionCard image={java} link="https://docs.oracle.com/en/java/" />
+          <MotionCard image={python} link="https://docs.python.org/3/" />
+          <MotionCard image={c} link="https://en.cppreference.com/w/c" />
+          <MotionCard image={cplus} link="https://en.cppreference.com/w/cpp" />
+          <MotionCard image={bootstrap} link="https://getbootstrap.com/docs/5.3/getting-started/introduction/" />
+          <MotionCard image={tailwind} link="https://tailwindcss.com/docs" />
+          <MotionCard image={github} link="https://docs.github.com/en" />
+          <MotionCard image={mysql} link="https://dev.mysql.com/doc/" />
         
       </div>
     </div>
