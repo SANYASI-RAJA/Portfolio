@@ -29,7 +29,7 @@ const Navbar = () => {
     <nav className={styles.navbar}>
       <Link
         to="/"
-        className={`${styles.title} bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% text-transparent bg-clip-text md:text-[60px]`}
+        className={`${styles.title} bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% text-transparent bg-clip-text md:text-[60px] px-4`}
       >
         SANYASI RAJA
       </Link>
