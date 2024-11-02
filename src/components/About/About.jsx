@@ -9,7 +9,7 @@ const About = () => {
         <h1 className="text-[30px] text-blue-800 font-bold md:text-[40px] lg:text-[35px]">About Me</h1>
         <div className="border-b-4 border-solid border-blue-100 p-1 w-16 border-blue-800 "></div>
       </div>
-      <div className="container w-full h-[80vh] flex flex-col items-center gap-3  mt-5 mb-20 lg:flex-row lg:justify-between lg:mt-2">
+      <div className="container w-full h-[70vh] flex flex-col items-center gap-3  mt-5 mb-20 lg:flex-row lg:justify-between lg:mt-2">
         <div className="data w-full lg:w-[60%]">
           <p className="text-[18px] text-cyan-500 font-bold md:text-[30px] lg:text-[28px]">Education:</p>
           {/* <div className="pg flex gap-2 text-blue-100 md:text-[25px]">
