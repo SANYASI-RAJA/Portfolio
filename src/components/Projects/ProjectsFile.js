@@ -2,6 +2,7 @@ import Expense from '../../assets/projects/Expense.png';
 import Editor from '../../assets/projects/Editor.png';
 import CV from "../../assets/projects/CV.png"
 import Tasklog from "../../assets/projects/Tasklog.png"
+import Algorithm from "../../assets/projects/Advance_CP.png" 
 export const projectsFile1 = [
     {
         name: "NIT JSR Complaint App(CampusVoice)",
@@ -39,6 +40,16 @@ export const projectsFile1 = [
         demo: "https://tasklogg.netlify.app/",
         tech: ["React"],
         flag: true
+    },  
+
+    {
+        name: "Advance CP Algorithm",
+        desc: "Includes advanced concepts of competitive programming algorithms implemented using C++ templates.",
+        github: "https://github.com/SANYASI-RAJA/My_Cplusplus_Template",
+        image: Algorithm,
+        demo: "https://github.com/SANYASI-RAJA/My_Cplusplus_Template",
+        tech: ["String, Bit, Math, Data Structure, DP"],
+        flag: false
     },  
 ]
 
